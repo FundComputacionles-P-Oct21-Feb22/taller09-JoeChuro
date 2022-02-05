@@ -1,0 +1,33 @@
+1.  Inicio
+2.  notas (3)(4),d[1,n]
+3.  notas<--{{9, 10, 7, 8},{10, 5, 7, 9},{7, 9.4, 10, 9}}
+4.  estudiantes(3),x[{a-z}{A-Z}{BS}]
+5.  estudiante<--{{"Jerry Ponce"}{"Gabriela Lewis"}{"David Bell"}}
+6.  suma,i[d-1]
+7.  suma<--0
+8.  promedio,d[n-1]
+9.  promedio<--0
+10. promedios(3),d[1-n]
+11. Para(columna<--0, colulma < ,4, 1)
+12. 	suma<--suma + notas[0][columna]
+13. 	promedio<-- suma/4
+14. 	promedios[0]<--promedio
+15. Fin para
+16. suma<--0
+17. promedio<--0
+18. Para(columna<--0, colulma < ,4, 1)
+19. 	suma<--suma + notas[1][columna]
+20. 	promedio<-- suma/4
+21.	promedios[1]<--promedio
+22. Fin para
+23. suma<--0
+24. promedio<--0
+25. Para(columna<--0, colulma < ,4, 1)
+26. 	suma<--suma + notas[2][columna]
+27. 	promedio<-- suma/4
+28.	promedios[3]<--promedio
+29. Fin para
+30. Para (indice<--0, indice<3, 1)haga
+31. 	Escribir("Estudiante"+estudiantes[indice]+"tiene un promedio de: "+promedios[indice])
+32. Fin para
+33. Fin 

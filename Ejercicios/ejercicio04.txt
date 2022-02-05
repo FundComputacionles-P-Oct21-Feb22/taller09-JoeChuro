@@ -1,0 +1,25 @@
+1.  Inicio
+2.  vendedores(2),x[{a-z},{A-Z},{BS}]
+3.  vendedores<--{"Jessica Cole","Rober Wallace"}
+3.  ventas(2)(5),d[{a-},{A-Z},[BS]]
+4.  Para(columna<--0, columna<5,1)
+5.  	Escribir"Ingrese las ventas del primer vendedor: "
+6.	Lee ventas[0][columna]
+7.	ventas[0][columna]<--ventas[0][columna]+ventas[0][columna]
+8.  Fin para
+9.  Para(columna<--0, columna<5,1)
+10.  	Escribir"Ingrese las ventas del primer vendedor: "
+11.	Lee ventas[0][columna]
+12.	ventas[0][columna]<--ventas[0][columna]+ventas[0][columna]
+13. Fin para
+14. Para(columna<--0, columna<5,1)
+15. 	Escribir"Ingrese las ventas del segundo vendedor: "
+16.	Lee ventas[1][columna]
+17. Fin para
+18. Para(v<--0, v<2,1)haga
+19.   Para(vc<--0,v<5,1)haga
+20.	Escribir("Vendedor(a)"+vendedor[v])
+21.	Escribir("Ha realizado un total de " ventas[v][vc])
+22.    Fin para
+23. Fin para
+24. Fin

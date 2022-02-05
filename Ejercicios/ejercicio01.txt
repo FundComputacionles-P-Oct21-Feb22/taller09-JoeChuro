@@ -1,0 +1,10 @@
+1.  Inicio
+2.  (arreglo(4)(4),i[1-n])
+3.  arreglo<--{{20, 30, 40, 50},{2, 3, 4, 5},{200, 300, 400, 500},{10, 11, 12, 14}}
+4.  Para(i<--0, i<4, 1)haga
+5.    Para(j<--0, j<4, 1)haga
+6.	Si(i < j)entonces
+7.	Escribir(arreglo[i][j])
+8.	Fin si
+9.    Fin para
+10. Fin
